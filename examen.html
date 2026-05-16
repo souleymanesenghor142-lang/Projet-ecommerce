@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Mini Shop - E-commerce</title>
+    <link rel="stylesheet" href="examen.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <h1>🛍️ MiniShop</h1>
+            <p>Les meilleures affaires</p>
+        </div>
+        <div class="header-actions">
+            <button id="darkModeToggle" class="btn-icon" aria-label="Mode sombre">🌙</button>
+        </div>
+    </header>
+
+    <div class="app-container">
+        <!-- SECTION PRODUITS (gauche) -->
+        <main class="products-section">
+            <div class="filters-bar">
+                <input type="text" id="searchInput" placeholder="🔍 Rechercher un produit..." class="search-input">
+                <select id="categorySelect" class="filter-select">
+                    <option value="all">Toutes les catégories</option>
+                </select>
+                <select id="sortSelect" class="filter-select">
+                    <option value="default">Trier par</option>
+                    <option value="price-asc">Prix croissant ⬆️</option>
+                    <option value="price-desc">Prix décroissant ⬇️</option>
+                </select>
+            </div>
+            <div id="productsContainer" class="products-grid">
+                <div class="loading-spinner">Chargement des produits...</div>
+            </div>
+        </main>
+
+        <!-- PANIER LATÉRAL (droite) -->
+        <aside class="cart-section">
+            <div class="cart-header">
+                <h2>🛒 Mon panier</h2>
+                <span id="cartItemCount" class="cart-badge">0</span>
+            </div>
+            <div id="cartItemsList" class="cart-items-list">
+                <div class="empty-cart-msg">Votre panier est vide.</div>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total :</span>
+                    <strong id="cartTotalPrice">0.00 €</strong>
+                </div>
+                <button id="clearCartBtn" class="btn-secondary">Vider le panier</button>
+            </div>
+        </aside>
+    </div>
+
+    <!-- MODAL PRODUIT (détail) -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modalBody" class="modal-body">
+                <!-- contenu dynamique -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <p>Mini site e-commerce — FakeStore API | Projet développement web</p>
+    </footer>
+
+    <script src="examen.js"></script>
+</body>
+</html>
