@@ -1,7 +1,7 @@
 # 🛍️ Mini site E-commerce
 
-## 👥 Membres du groupe
-SOULEYMANE SENGHOR
+## Fait par : 
+## SOULEYMANE SENGHOR
 ## 📝 Description
 Ce projet est une boutique en ligne dynamique développée dans le cadre de l'évaluation finale du module de développement web.  
 Le site récupère des produits depuis l'API publique [FakeStore API] (https://fakestoreapi.com/) et permet aux utilisateurs de gérer un panier d'achat persistant.
