@@ -34,8 +34,8 @@ Le site récupère des produits depuis l'API publique [FakeStore API] (https://f
 - Git & GitHub 
 
 ## 📸 Captures d’écran
-![alt text](image.png)
 
+<img width="926" height="440" alt="image" src="https://github.com/user-attachments/assets/2a164b80-4b36-4225-8fa2-e27b8bb6ab30" />
 
 ## 🌐 Lien GitHub du projet
 https://github.com/souleymanesenghor142-lang/Projet-ecommerce
