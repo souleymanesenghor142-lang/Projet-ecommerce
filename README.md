@@ -3,8 +3,7 @@
 ## Fait par : 
 ## SOULEYMANE SENGHOR
 ## 📝 Description
-Ce projet est une boutique en ligne dynamique développée dans le cadre de l'évaluation finale du module de développement web.  
-Le site récupère des produits depuis l'API publique [FakeStore API] (https://fakestoreapi.com/) et permet aux utilisateurs de gérer un panier d'achat persistant.
+Ce projet est une boutique en ligne dynamique que j'ai développée dans le cadre de l'évaluation finale du module de développement web dans cette frmation de e-commerce. Le site récupère des produits depuis l'API publique ( les images, les prix, la descriptio... ) (https://fakestoreapi.com/) et permet aux utilisateurs de gérer un panier d'achat persistant. Il suffit juste de clicker sur ajouter et ce produit sajoute sur le panier en calculant directement le prix total. Il peut vous permettre de suprimer si vous avez changer d'avis. En plus de ca sur chaque produits tu peut voir les details du produit ( ces caractéristiques). Il y a aussi les butons triages qui facilite la recherche des produit ar la categorie mais aussi par le prix.
 
 ## ✅ Fonctionnalités réalisées (exigences obligatoires)
 
