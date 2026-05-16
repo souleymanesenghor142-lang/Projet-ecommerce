@@ -1,29 +1,41 @@
-# Mini site E-commerce
+# 🛍️ Mini site E-commerce
 
+## 👥 Membres du groupe
 SOULEYMANE SENGHOR
+## 📝 Description
+Ce projet est une boutique en ligne dynamique développée dans le cadre de l'évaluation finale du module de développement web.  
+Le site récupère des produits depuis l'API publique [FakeStore API] (https://fakestoreapi.com/) et permet aux utilisateurs de gérer un panier d'achat persistant.
 
-## Description
-Site e-commerce simple qui affiche des produits depuis l'API FakeStore.  
-L'utilisateur peut ajouter des produits au panier, les supprimer, voir le nombre d'articles et le prix total.  
-Le panier est sauvegardé même après avoir actualisé la page (LocalStorage).
+## ✅ Fonctionnalités réalisées (exigences obligatoires)
 
-## Fonctionnalités réalisées
-- Affichage des produits (image, titre, prix, description) avec fetch()
-- Ajout au panier
-- Suppression d’un produit du panier
-- Nombre d’articles et prix total
-- Sauvegarde du panier dans LocalStorage
-- Design responsive (mobile, tablette, ordinateur)
+| Fonctionnalité | Statut |
+|----------------|--------|
+| Affichage des produits (image, nom, prix, description) depuis `fetch()` | ✔️ |
+| Ajouter un produit au panier | ✔️ |
+| Supprimer un produit du panier | ✔️ |
+| Voir le nombre d’articles dans le panier | ✔️ |
+| Voir le prix total du panier | ✔️ |
+| Manipulation du DOM (`getElementById`, `querySelector`, `createElement`, `appendChild`, `textContent`, `innerHTML`) | ✔️ |
+| Gestion d’événements (`addEventListener`, clic) | ✔️ |
+| Sauvegarde du panier dans `localStorage` (persistant après actualisation) | ✔️ |
+| Responsive Design (mobile, tablette, ordinateur) | ✔️ |
 
-## Captures d'écran
-*(Ajoute ici des images de ton site)*
+## 🧩 Fonctionnalités bonus (optionnelles)
+- **Mode sombre**  (bouton en haut à droite)
+- **Modal de détail produit** (cliquer sur "Détail")
+- **Recherche de produits** par nom
+- **Filtrage par catégorie** (dynamique depuis l'API)
+- **Tri par prix** (croissant / décroissant)
 
-## Lien GitHub
-[Mon projet sur GitHub](https://github.com/TON-COMPTE/projet-ecommerce)
-
-## Technologies utilisées
+## 🚀 Technologies utilisées
 - HTML
 - CSS
-- JavaScript (Vanilla)
-- Fetch API
-- LocalStorage
+- JavaScript 
+- Git & GitHub 
+
+## 📸 Captures d’écran
+![alt text](image.png)
+
+
+## 🌐 Lien GitHub du projet
+https://github.com/souleymanesenghor142-lang/Projet-ecommerce
