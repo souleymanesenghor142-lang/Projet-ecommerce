@@ -37,5 +37,8 @@ Ce projet est une boutique en ligne dynamique que j'ai développée dans le cadr
 <img width="926" height="440" alt="image" src="https://github.com/user-attachments/assets/2a164b80-4b36-4225-8fa2-e27b8bb6ab30" />
 <img width="926" height="407" alt="image" src="https://github.com/user-attachments/assets/65212ec0-bb75-4538-a1b7-729a947a9bac" />
 
+La vidéo
+https://docs.google.com/videos/d/1PnNhtexHQtPQyHI2yNL9b9CepwNVkpNFiNlwSLb72_M/edit?scene=id.p#scene=id.p
+
 ## 🌐 Lien GitHub du projet
 https://github.com/souleymanesenghor142-lang/Projet-ecommerce
